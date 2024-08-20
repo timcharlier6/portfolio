@@ -30,7 +30,7 @@ const Hero = () => (
       socialButtons={
         <>
           <a href="https://vimeo.com/ganondorofu">
-            <HeroSocial src="/assets/images/vimeo.png" alt="Vimeo icon" />
+            <HeroSocial src="/assets/images/vimeo.jpg" alt="Vimeo icon" />
           </a>
           <a href="https://www.linkedin.com/in/timcharlier6/">
             <HeroSocial
