@@ -1,21 +1,13 @@
-import {
-  GradientText,
-  HeroAvatar,
-  HeroSocial,
-  Section,
-} from 'astro-boilerplate-components';
+import { HeroAvatar, HeroSocial, Section } from 'astro-boilerplate-components';
 
 const Hero = () => (
   <Section>
     <HeroAvatar
-      title={
-        <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
-        </>
-      }
+      title={<>Hi there, I'm Tim Charlier👋</>}
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
+          You can view my personal projects on this page.
+          {/* {' '}
           <a className="text-cyan-400 hover:underline" href="/">
             malesuada
           </a>{' '}
@@ -23,42 +15,27 @@ const Hero = () => (
           <a className="text-cyan-400 hover:underline" href="/">
             consectetur
           </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. */}
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="h-80 w-80"
+          src="/assets/images/photo_profil.jpg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://www.linkedin.com/in/timcharlier6/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
-            />
+          <a href="https://github.com/timcharlier6/">
+            <HeroSocial src="/assets/images/github.png" alt="Github icon" />
           </a>
         </>
       }

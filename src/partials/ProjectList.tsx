@@ -10,24 +10,22 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Recent <GradientText>Projects</GradientText>
+        <GradientText>My Projects</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Alphabetical Piano"
+        description="The Alphabetical Piano is an interactive typing practice tool that turns the keyboard into a piano. Users can practice typing while playing the famous Prelude in C major from Bach."
+        link="https://timcharlier6.github.io/Alphabetical_Piano.github.io/"
         img={{
-          src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          src: '/assets/images/alphabetical-piano.png',
+          alt: 'Musical Front-End Appication',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
+            <Tags color={ColorTags.FUCHSIA}>Tone.js</Tags>
             <Tags color={ColorTags.LIME}>Web design</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>TypeScript</Tags>
@@ -35,32 +33,51 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        name="Image Processor"
+        description="A command-line tool for various image transformations using python3's Pillow library. This script allows you to apply different image processing functionalities such as cropping, resizing, rotating, and applying filters."
+        link="https://replit.com/@timcharlier6/CLIimgprocessor?v=1"
+        img={{
+          src: '/assets/images/image-processor.png',
+          alt: 'Image Processor CLI Tool',
+        }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Python</Tags>
+            <Tags color={ColorTags.EMERALD}>Pillow</Tags>
+            <Tags color={ColorTags.YELLOW}>Flask</Tags>
           </>
         }
       />
       <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
+        name="Garden Database"
+        description="A database table with a search box made with SQLite and Laravel."
+        link="https://garden-database.glitch.me/"
+        img={{
+          src: '/assets/images/garden-database.jpg',
+          alt: 'Garden Database',
+        }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.FUCHSIA}>SQLite</Tags>
+            <Tags color={ColorTags.INDIGO}>PHP</Tags>
+            <Tags color={ColorTags.ROSE}>Laravel</Tags>
+            <Tags color={ColorTags.YELLOW}>Bootstrap 5</Tags>
+          </>
+        }
+      />
+      <Project
+        name="Brown Noise Generator"
+        description="A simple brown noise generator with a friendly UI made with Tone.js and TypeScript."
+        link="https://forum.ircam.fr/projects/detail/brown-noise-generator/"
+        img={{
+          src: '/assets/images/brown_noise.png',
+          alt: 'Brown Noise Generator',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>TypeScript</Tags>
+            <Tags color={ColorTags.INDIGO}>CSS</Tags>
+            <Tags color={ColorTags.ROSE}>Tone.js</Tags>
           </>
         }
       />

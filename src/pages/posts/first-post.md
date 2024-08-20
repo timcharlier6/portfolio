@@ -1,10 +1,10 @@
 ---
 layout: '@/templates/BasePost.astro'
-title: 1st Lorem ipsum dolor sit
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi.
-pubDate: 2020-02-01T00:00:00Z
-imgSrc: '/assets/images/image-post7.jpeg'
-imgAlt: 'Image post 7'
+title: Le Forem
+description: Certifications
+pubDate: 2024-17-01T00:00:00Z
+imgSrc: '/assets/images/forem/forem.png'
+imgAlt: 'Certifications'
 ---
-
-Full typography example at [this page](../sixth-post/).
+![Competences numeriques niveau elementaire](/assets/images/forem/niveau_elementaire.png)
+![Competences numeriques niveau independant](/assets/images/forem/niveau_independant.png)
