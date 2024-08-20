@@ -6,7 +6,9 @@ const Hero = () => (
       title={<>Hi there, I'm Tim Charlier👋</>}
       description={
         <>
-          You can view my personal projects on this page.
+          You can view my personal projects on this page or you can visit my
+          LinkedIn, Vimeo (for music software projects) and GitHub (for coding
+          projects) profiles.
           {/* {' '}
           <a className="text-cyan-400 hover:underline" href="/">
             malesuada
@@ -28,6 +30,12 @@ const Hero = () => (
       }
       socialButtons={
         <>
+          <a href="https://www.linkedin.com/in/timcharlier6/">
+            <HeroSocial
+              src="/assets/images/linkedin-icon.png"
+              alt="Linkedin icon"
+            />
+          </a>
           <a href="https://www.linkedin.com/in/timcharlier6/">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
