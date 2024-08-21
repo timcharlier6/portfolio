@@ -49,6 +49,25 @@ const ProjectList = () => (
         }
       />
       <Project
+        name="Simple Metronome"
+        description="
+This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, and the Tone.js library. The application allows users to select a musical note, octave, and tempo to generate a metronome sound. The metronome also includes a stopwatch to track elapsed time while it is running.
+"
+        link="https://simple-metronome-fk2wxs8nw-ganondorofus-projects.vercel.app/"
+        img={{
+          src: '/assets/images/alphabetical-piano.png',
+          alt: 'Musical Front-End Appication',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Tone.js</Tags>
+            <Tags color={ColorTags.LIME}>Web design</Tags>
+            <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
+            <Tags color={ColorTags.ROSE}>JavaScript</Tags>
+          </>
+        }
+      />
+      <Project
         name="Garden Database"
         description="A database table with a search box made with SQLite and Laravel."
         link="https://garden-database.glitch.me/"
