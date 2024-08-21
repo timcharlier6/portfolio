@@ -53,7 +53,7 @@ const ProjectList = () => (
         description="
 This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, and the Tone.js library. The application allows users to select a musical note, octave, and tempo to generate a metronome sound. The metronome also includes a stopwatch to track elapsed time while it is running.
 "
-        link="https://simple-metronome-fk2wxs8nw-ganondorofus-projects.vercel.app/"
+        link="https://simple-metronome-app.netlify.app/"
         img={{
           src: '/assets/images/alphabetical-piano.png',
           alt: 'Musical Front-End Appication',
