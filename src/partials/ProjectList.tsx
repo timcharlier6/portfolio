@@ -100,6 +100,22 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
           </>
         }
       />
+      <Project
+        name="Bach Midi player"
+        description="Midi score of Bach with a new voice that you can follow along."
+        link="https://inventions-bach.netlify.app/"
+        img={{
+          src: '/assets/images/html.jpg',
+          alt: 'Midi Player Bach',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>HTML</Tags>
+            <Tags color={ColorTags.INDIGO}>CSS</Tags>
+            <Tags color={ColorTags.ROSE}>Midi library</Tags>
+          </>
+        }
+      />
     </div>
   </Section>
 );
