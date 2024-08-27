@@ -18,7 +18,7 @@ const ProjectList = () => (
       <Project
         name="Alphabetical Piano"
         description="The Alphabetical Piano is an interactive typing practice tool that turns the keyboard into a piano. Users can practice typing while playing the famous Prelude in C major from Bach."
-        link="https://timcharlier6.github.io/Alphabetical_Piano.github.io/"
+        link="https://alphabetical-piano.netlify.app/"
         img={{
           src: '/assets/images/alphabetical-piano.png',
           alt: 'Musical Front-End Appication',
@@ -87,7 +87,7 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
       <Project
         name="Brown Noise Generator"
         description="A simple brown noise generator with a friendly UI made with Tone.js and TypeScript."
-        link="https://forum.ircam.fr/projects/detail/brown-noise-generator/"
+        link="https://brown-noise-generator.vercel.app/"
         img={{
           src: '/assets/images/brown_noise.png',
           alt: 'Brown Noise Generator',
