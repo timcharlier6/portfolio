@@ -69,8 +69,8 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
       />
       <Project
         name="Garden Database"
-        description="A database table with a search box made with SQLite and Laravel."
-        link="https://garden-database.glitch.me/"
+        description="A database table with a search box made with SQLite and PHP in a Docker container."
+        link="https://garden-databasej.onrender.com/"
         img={{
           src: '/assets/images/garden-database.jpg',
           alt: 'Garden Database',
@@ -79,7 +79,7 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
           <>
             <Tags color={ColorTags.FUCHSIA}>SQLite</Tags>
             <Tags color={ColorTags.INDIGO}>PHP</Tags>
-            <Tags color={ColorTags.ROSE}>Laravel</Tags>
+            <Tags color={ColorTags.ROSE}>Docker</Tags>
             <Tags color={ColorTags.YELLOW}>Bootstrap 5</Tags>
           </>
         }
