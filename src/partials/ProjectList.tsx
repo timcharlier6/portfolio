@@ -33,18 +33,19 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Image Processor"
-        description="A command-line tool for various image transformations using python3's Pillow library. This script allows you to apply different image processing functionalities such as cropping, resizing, rotating, and applying filters."
-        link="https://replit.com/@timcharlier6/CLIimgprocessor?v=1"
+        name="Calculator"
+        description="A Simple Calculator"
+        link="https://calculatrice-04374b.gitlab.io/"
         img={{
           src: '/assets/images/image-processor.png',
-          alt: 'Image Processor CLI Tool',
+          alt: 'Calculator',
         }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Python</Tags>
-            <Tags color={ColorTags.EMERALD}>Pillow</Tags>
-            <Tags color={ColorTags.YELLOW}>Flask</Tags>
+            <Tags color={ColorTags.VIOLET}>Webpack</Tags>
+            <Tags color={ColorTags.EMERALD}>JavaScript</Tags>
+            <Tags color={ColorTags.YELLOW}>HTML/CSS</Tags>
+            <Tags color={ColorTags.LIME}>jQuery</Tags>
           </>
         }
       />
@@ -61,7 +62,6 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
         category={
           <>
             <Tags color={ColorTags.FUCHSIA}>Tone.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
             <Tags color={ColorTags.ROSE}>JavaScript</Tags>
           </>
