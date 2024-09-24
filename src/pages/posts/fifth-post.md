@@ -7,4 +7,4 @@ imgSrc: '/assets/images/bigInterview'
 imgAlt: 'Certifications'
 ---
 
-![Big Interview - Fast Track](/assets/images/bigInterview/big_interview-fast-track_page-0001.jpeg)
+![Big Interview - Fast Track](/assets/images/bigInterview/big_interview-fast-track_page-0001.jpg)
