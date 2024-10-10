@@ -100,6 +100,22 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
           </>
         }
       />
+
+      <Project
+        name="Cookbook"
+        description="A cookbook with markdown files converted to html"
+        link="https://timcharlier6.github.io/recipes/"
+        img={{
+          src: '/assets/images/garden-database.jpg',
+          alt: 'Cookbook',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Jekyll</Tags>
+            <Tags color={ColorTags.INDIGO}>Markdown</Tags>
+          </>
+        }
+      />
       <Project
         name="Bach Midi player"
         description="Midi score of Bach with a new voice that you can follow along."
