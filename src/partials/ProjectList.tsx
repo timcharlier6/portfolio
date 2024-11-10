@@ -49,6 +49,25 @@ const ProjectList = () => (
           </>
         }
       />
+
+      <Project
+        name="Light Song"
+        description="
+        Experiment with music scripting.
+"
+        link="https://timcharlier6.github.io/lilypond/"
+        img={{
+          src: '/assets/images/alphabetical-piano.png',
+          alt: 'Musical Front-End Appication',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.FUCHSIA}>Tone.js</Tags>
+            <Tags color={ColorTags.SKY}>Lilypond</Tags>
+            <Tags color={ColorTags.ROSE}>JavaScript</Tags>
+          </>
+        }
+      />
       <Project
         name="Simple Metronome"
         description="
