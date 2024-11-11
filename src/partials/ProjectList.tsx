@@ -51,7 +51,7 @@ const ProjectList = () => (
       />
 
       <Project
-        name="Light Song"
+        name="Sound Painting"
         description="
         Experiment with music scripting.
 "
