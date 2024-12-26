@@ -106,7 +106,7 @@ This is a simple web-based metronome built using HTML, CSS, JavaScript, jQuery, 
       <Project
         name="Brown Noise Generator"
         description="A simple brown noise generator with a friendly UI made with Tone.js and TypeScript."
-        link="https://forum.ircam.fr/projects/detail/brown-noise-generator/"
+        link="https://brown-noise-generator.vercel.app/"
         img={{
           src: '/assets/images/brown_noise.png',
           alt: 'Brown Noise Generator',
